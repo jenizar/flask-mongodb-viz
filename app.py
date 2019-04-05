@@ -21,8 +21,8 @@ FIELDS = {'school_state': True, 'resource_type': True, 'poverty_level': True, 'd
 # START - subprogram insert data to DB
 #insert data from file.csv to MongoDB
 
-client = MongoClient("mongodb://127.0.0.1:27017") #host uri
-db = client.donorschoose     #Select the database
+client = MongoClient("mongodb://G3lbKo__UExZrtBo:l1H2egzQff_BEbG1@10.11.241.39:47481/U2VrgicbP4a2Td7B") #host uri
+db = client.U2VrgicbP4a2Td7B     #Select the database
 
 csvfile = open('donors.csv', 'r')
 reader = csv.DictReader( csvfile )
