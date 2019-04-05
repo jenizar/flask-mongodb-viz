@@ -1,0 +1,8 @@
+---
+applications:
+- name: flask-mongodb-viz
+  memory: 1024MB
+  disk_quota: 1024MB
+  random-route: true
+  services:
+    - mongodb-visual
